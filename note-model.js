@@ -1,7 +1,7 @@
 (function(exports) {
-function Notes(text) {
-  this.text = text;
-};
+  function Notes(text) {
+    this.text = text;
+  };
 
 Notes.prototype = (function (){
 
@@ -10,7 +10,7 @@ Notes.prototype = (function (){
   };
 
   return {
-    content: notescontent
+    notescontent
   };
  
 })();

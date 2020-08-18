@@ -1,3 +1,5 @@
+// const { NoteList } = require("./note-list-model");
+
 (function(exports) {
   function noteList(){
     var note = new NoteList();
@@ -7,7 +9,7 @@
   }
 }
   noteList();
-})(this);
+})();
 
 (function(exports){
   function addNoteTest(){
@@ -19,4 +21,6 @@
     }
   }
  addNoteTest();
-})(this)
+})()
+
+
