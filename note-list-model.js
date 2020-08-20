@@ -1,11 +1,11 @@
 (function(exports){
-  function NoteList() {
+  function NoteListModel() {
     this.list = [];
   };
 
-    NoteList.prototype = (function(){
+    NoteListModel.prototype = (function(){
       function noteList() {
-        console.log(this.list);
+        return this.list
       };
 
       function addNote(text) {
@@ -17,7 +17,7 @@
       addNote
     };
     })();
-    exports.NoteList = NoteList;
+    exports.NoteListModel = NoteListModel;
 })(this);
 
 

@@ -6,7 +6,7 @@
 Notes.prototype = (function (){
 
   function notescontent() {
-    console.log(this.text);
+    return(this.text);
   };
 
   return {
